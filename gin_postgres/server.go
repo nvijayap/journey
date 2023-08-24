@@ -26,14 +26,15 @@ func main() {
 
 	pghost, pgport := os.Getenv("pghost"), os.Getenv("pgport")
 	pgun, pgpw := os.Getenv("pgun"), os.Getenv("pgpw")
+	sslmode := os.Getenv("sslmode")
 	pgdb := os.Getenv("pgdb")
 
 	r := gin.Default()
 	r.SetTrustedProxies([]string{"127.0.0.1"})
 
 	r.GET("/connect", func(c *gin.Context) {
-		connStr := fmt.Sprintf("postgres://%s:%s@%s:%s/%s?sslmode=disable",
-			pgun, pgpw, pghost, pgport, pgdb)
+		connStr := fmt.Sprintf("postgres://%s:%s@%s:%s/%s?sslmode=%s",
+			pgun, pgpw, pghost, pgport, pgdb, sslmode)
 		db, err := sql.Open("postgres", connStr)
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{
