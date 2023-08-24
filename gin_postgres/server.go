@@ -24,11 +24,9 @@ func main() {
 		log.Fatal(err)
 	}
 
-	pghost := os.Getenv("pghost")
-	pgport := os.Getenv("pgport")
+	pghost, pgport := os.Getenv("pghost"), os.Getenv("pgport")
+	pgun, pgpw := os.Getenv("pgun"), os.Getenv("pgpw")
 	pgdb := os.Getenv("pgdb")
-	pgun := os.Getenv("pgun")
-	pgpw := os.Getenv("pgpw")
 
 	r := gin.Default()
 	r.SetTrustedProxies([]string{"127.0.0.1"})
