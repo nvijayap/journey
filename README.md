@@ -1,6 +1,22 @@
 # Journey
 The journey to perfection in some topics of CS (Computer Science)
 
+## gin => postgres
+The `gin_postgres` dir is about `gin` web framework and `postgresql` database interaction
+
+## hello
+The `hello` dir has scripts/programs to say `hello` in 10 different programming languages ...
+  1. c
+  2. go
+  3. java
+  4. node (aka nodejs)
+  5. lua
+  6. python (python3 to be explicit)
+  7. ruby
+  8. rust
+  9. scala
+  10. bash
+
 ## Acknowledgements
   1. https://www.vim.org/
   2. https://www.postgresql.org/
@@ -16,17 +32,3 @@ The journey to perfection in some topics of CS (Computer Science)
   12. https://scala-lang.org/
   13. https://www.python.org/
   14. https://www.ruby-lang.org/
-
-## hello
-The `hello` dir has scripts/programs to say `hello` in 8 different programming languages ...
-  1. java
-  2. go (aka golang)
-  3. node (aka nodejs)
-  4. lua
-  5. python (python3 to be explicit)
-  6. rust
-  7. scala
-  8. bash
-
-## gin => postgres
-The `gin_postgres` dir is about `gin` web framework and `postgresql` database interaction
