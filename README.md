@@ -17,6 +17,17 @@ The `hello` dir has scripts/programs to say `hello` in 10 different programming 
   9. scala
   10. bash
 
+## bye
+How to cleanly handle bye?
+  1. Use `trap` in `BASH` for SIGINT, SIGTERM, EXIT
+  2. Use `shutdown hook` in `Java`
+
+## Most adorable editor w/out distractions - Vim!
+
+## Appealing URLs
+  1. https://bojanvidanovic.com/blog/how-to-setup-vim-as-an-ide-for-react-typescript/
+  2. https://daveceddia.com/react-hook-after-render/
+
 ## Acknowledgements
   1. https://www.vim.org/
   2. https://www.postgresql.org/
