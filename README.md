@@ -19,7 +19,7 @@ The `hello` dir has scripts/programs to say `hello` in 10 different programming 
 
 ## bye
 How to cleanly handle bye?
-  1. Use `trap` in `BASH` for SIGINT, SIGTERM, EXIT
+  1. Use `trap` in `BASH` for `SIGINT`, `SIGTERM`, `EXIT`
   2. Use `shutdown hook` in `Java`
 
 ## Most adorable editor w/out distractions - Vim!
