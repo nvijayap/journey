@@ -21,7 +21,8 @@ The `hello` dir has scripts/programs to say `hello` in 10 different programming 
 How to cleanly handle bye?
   1. Use `trap` in `BASH` for `SIGINT`, `SIGTERM`, `EXIT`
   2. Use `shutdown hook` in `Java`
-  3. Use `at_exit` in `Ruby`
+  3. Use `atexit` in `Python`
+  4. Use `at_exit` in `Ruby`
 
 ## Most adorable editor w/out distractions - Vim!
 
