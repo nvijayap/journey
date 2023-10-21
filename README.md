@@ -25,8 +25,9 @@ How to cleanly handle bye?
   4. Use `at_exit` in `Ruby`
 
 ## Most adorable editor w/out distractions - Vim!
+  1. https://github.com/preservim/nerdtree
 
-## Appealing URLs
+## Most Appealing URLs
   1. https://bojanvidanovic.com/blog/how-to-setup-vim-as-an-ide-for-react-typescript/
   2. https://daveceddia.com/react-hook-after-render/
 
